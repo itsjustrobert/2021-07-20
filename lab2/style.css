@@ -1,21 +1,39 @@
 *{
     margin: 0;
-    padding:0;
- background-image: url(./images/luca-bravo-SRjZtxsK3Os-unsplash.jpg);
+    padding:0%;
+    background-color:beige;
+ 
+ background-repeat: no-repeat;
+ align-items: center;
+}
+.logo{
+    margin-left: 720px;
+}
+h1{
+    text-align: center;
 }
 
 h2{
     font-size: 3.8rem;
     color:skyblue;
+    text-align: center;
     }
-    li{
-        color: skyblue;
-    }
+    
 p{
     font-size: 24px;
-    color:blue;
+    color:black;
+    text-align: center;
 }
+.topTen{
+    font-size: 20px;
+    
+    color:blue;
+  list-style: lower-roman;
+  position: relative;
 
+  text-align: center;
+list-style-position: inside;
+}
    
 
 .aboutme{
