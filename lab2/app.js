@@ -86,8 +86,7 @@ alert("It has been a pleasure meeting you " +userName + "! I hope with this webp
 confirm("Enter?");
 
 }
-greetings();
-interests();
+
 
 
 

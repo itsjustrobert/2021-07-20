@@ -3,9 +3,7 @@
     padding:0;
  background-image: url(./images/luca-bravo-SRjZtxsK3Os-unsplash.jpg);
 }
-.logo{
-   margin:5% 70% 45% 30%;
-}
+
 h2{
     font-size: 3.8rem;
     color:skyblue;
@@ -13,12 +11,16 @@ h2{
     li{
         color: skyblue;
     }
-
+p{
+    font-size: 24px;
+    color:blue;
+}
 
    
 
-.container{
-  display:flex;
-  flex-wrap: wrap;
+.aboutme{
+
+position: relative;
+position: sticky;
 }
 
