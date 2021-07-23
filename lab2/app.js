@@ -86,16 +86,6 @@ function greetings() {
     alert(
       "I'm thinking of a number...Can you guess it? It's between 1 and 15...."
     );
-
-    // let numberGuessed=[
-    // prompt("please enter your first guess"),
-    // prompt("please enter your second guess"),
-    // prompt("please enter your third guess"),
-    // prompt("please enter your last guess"),
-    // ];
-
-    // console.log(numberGuessed);
-
     let wrongNumberGuessed = true;
 
     while (wrongNumberGuessed) {
@@ -128,7 +118,7 @@ function greetings() {
       "steak",
       "cabbage",
       "radish",
-      "watermelon"
+      "watermelon",
     ];
     // insanity test
     // alert("im here man " + redThingsToEat);
@@ -137,17 +127,26 @@ function greetings() {
 
     for (let i = 0; i <= 6; i++) {
       let redQuestion = prompt("Can you name something red that you eat");
+
+      if (
+        (redQuestion === redThingsToEat[0],
+        [1],
+        [2],
+        [3],
+        [4],
+        [5],
+        [6],
+        [7],
+        [8])
     
-    if (redQuestion === redThingsToEat[0],[1],[2],[3],[4],[5],[6],[7],[8]) {
-      
-      alert("You are correct," + userName);
-
-    } else {
-      alert("that's wrong");
+      ) {
+         console.log([i]);
+        alert("You are correct," + userName);
+      } else {
+        alert("that's wrong");
+      }
     }
-
-    }
-    console.log(i);
+   
   }
 
   interests();
@@ -156,16 +155,3 @@ function greetings() {
 }
 
 greetings();
-// console.log(redQuestion);
-
-    // answerGiven = prompt("What is something red that you can eat?");
-    // console.log(answerGiven);
-
-    // for (let i = 0; i < redThingsToEat.length; i++) {
-
-    //   if (redThingsToEat[0] == answerGiven) {
-    //     alert("Thats correct!!!");
-    //   } else {
-    //     alert("Try again, " + userName);
-    //   }
-    // }
