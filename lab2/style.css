@@ -1,9 +1,8 @@
 *{
     margin: 0;
     padding:0%;
-    background-color: rgba(174,4,4,0.83);
-
- background-repeat: no-repeat;
+ 
+   background-color: darkred;
  align-items: center;
 }
 .logo{
@@ -11,6 +10,7 @@
 }
 h1{
     text-align: center;
+    font-size: 36px;
 }
 
 h2{
@@ -41,4 +41,9 @@ list-style-position: inside;
 position: relative;
 position: sticky;
 }
+.workHistoryImages{
+float: right;
+position: relative;
+}
+
 
